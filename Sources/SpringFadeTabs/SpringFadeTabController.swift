@@ -31,7 +31,9 @@ public class SpringFadeTabBarTransitionAnimation: NSObject, UIViewControllerAnim
     public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return transitionDuration
     }
-  
+    
+    /// Animate the transition between from and to controllers views
+    /// - Parameter transitionContext: The transition context object
     public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         guard
             let fromVC = transitionContext.viewController(forKey: .from),
