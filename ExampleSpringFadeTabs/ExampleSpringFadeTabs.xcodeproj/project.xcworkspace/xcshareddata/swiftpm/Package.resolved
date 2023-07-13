@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "springfadetabs",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/iamazhar/SpringFadeTabs",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4881a3a3a33b91f1ea7a03b1f9b76aebe4de0a58"
+      }
+    }
+  ],
+  "version" : 2
+}
